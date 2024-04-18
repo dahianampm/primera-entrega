@@ -1,0 +1,530 @@
+
+/* Receteo CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*tipografías externas*/
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kalam:wght@300;400;700&display=swap');
+
+
+
+                               /*  Barra de navegación  */
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.nav-header{
+    background: rgba(134, 166, 157, 0.20);
+    height: 120px;
+}
+
+/* texto nav */
+.nav-header{
+  color: #003823;
+  font-family: "Asap Condensed Medium";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+}
+
+.nav-header ul {
+    list-style-type: none;
+    text-align: right;
+    padding: 0;
+  }
+  
+.nav-header ul li {
+    display: inline-block;
+  }
+  
+  
+.nav-header ul li a {
+    text-decoration: none;
+    color: #003823;
+    padding: 10px;
+    display: block;
+  }
+
+                                /*  Main  */
+
+/* títulos*/
+h1,
+h2{
+  color: #003823;
+  font-family: Kalam;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* subtitulos */
+
+h3,
+h4{
+  color: #003823;
+  font-family: "Asap Condensed Medium";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* parrrafos */
+
+p{
+  color: #003823;
+  font-family: "Asap Condensed";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+ 
+  /* INDEX:contendio del main */
+
+.logotipo{
+    width: 700px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 0;
+  }
+
+.img-bienvenida{
+    height: 600px;
+    flex-shrink: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 70px;
+    right: 0;
+  }
+
+
+.bienvenida{
+  display: flex;
+  width: 671px;
+  height: 431px;
+  padding-left: 80px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.bienvenida p{
+  color: #003823;
+  font-family: "Asap Condensed Medium";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* botones */
+button{
+  color: #003823;
+  font-family: "Asap Condensed Medium";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 20px 0;
+}
+
+button{
+  border-radius: 20px;
+  border: 1px solid #003823;
+  background: #FEFDE7;
+  display: flex;
+  height: 79px;
+  padding: 20px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.testimonio{
+  background: rgba(134, 166, 157, 0.20);
+  text-align: center;
+  height: 370px;
+  margin-top: 230px;
+  margin-bottom: 30px;
+  padding: 20px 80px
+}
+
+.testimonio article{
+  display: inline-flex;
+  width: 350px;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+  /* SOBRE MI:contendio del main */
+
+.img-sobremi{
+  height: 500px;
+  border-radius: 20px;
+  flex-shrink: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 150px;
+  left: 80px;
+}
+
+.intro-sobremi h1{
+  display: flex;
+  width: 800px;
+  height: 600px;
+  padding-right: 80px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-left: 40%;
+}
+
+.miformacion{
+  background: rgba(134, 166, 157, 0.20);
+  height: 100%;
+  padding: 20px 80px;
+}
+
+.areas-tratamiento h2{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.areas-tratamiento ul {
+  font-family: "Asap Condensed";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  list-style-type: circle;
+  text-align: left;
+  padding: 0px 80px 20px;
+}
+
+.areas-tratamiento ul li {
+  text-decoration: none;
+  color: #003823;
+  padding: 10px;
+  display: block;
+}
+
+ /* TIENDA:contendio del main */
+
+ .titulo-tienda{
+  text-align: center;
+  padding-top: 20px;
+ }
+
+ .card-recetario div{
+  background: rgba(134, 166, 157, 0.20);
+  display: inline-flex;
+  width: 450px;
+  height: 800px;
+  padding: 20px 80px;
+  margin: 20px 80px;
+  border-radius: 20px;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+ }
+
+ .card-recetario img{
+  width: 334px;
+  height: 500px;
+  object-fit: cover;
+ }
+
+ /* CONSULTA ONLINE:contendio del main */
+
+ .seccion-consultaonline{
+  display: flex;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 80px;
+ }
+
+ .img-consultaonline img{
+  width:600px;
+  object-fit: cover;
+  border-radius: 20px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 150px;
+  right: 80px;
+ }
+
+ .consulta-comofunciona{
+    background: rgba(134, 166, 157, 0.20);
+    padding: 20px 80px;
+    margin-top: 80px;
+    gap: 20px;
+ }
+
+ .consulta-comofunciona ul {
+  font-family: "Asap Condensed";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  list-style-type: decimal;
+  text-align: left;
+  padding: 20px;
+}
+
+.consulta-comofunciona ul li {
+  text-decoration: none;
+  color: #003823;
+  padding: 10px;  
+}
+
+.consulta-ventajas h2{
+  text-align: center;
+  padding: 30px 0;
+}
+
+.consulta-ventajas article{
+  display: inline-flex;
+  width: 450px;
+  margin: 0 80px;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
+
+.consulta-ventajas img{
+  height: 300px;
+  object-fit: cover;
+}
+
+.consulta-tarifa{
+  display: flex;
+  width: 754px;
+  height: 330px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid #003823;
+  background: rgba(134, 166, 157, 0.20);
+  margin: 20px 20%;
+}
+
+.consulta-tarifa h2{
+  width: 754px;
+  background-color: #FEFDE7;
+  text-align: center;
+  align-items: flex-start;
+  border-radius: 20px;
+  border: 1px solid #003823;
+  padding-top:10px;
+}
+
+.consulta-tarifa h3{
+  font-size: 100px;
+}
+
+.consulta-tarifa button{
+  width: 754px;
+  align-items: flex-end;
+  margin-bottom: 0;
+}
+
+/* CONTACTO:contendio del main */
+
+.seccion-preguntas{
+  padding: 0 80px 20px;
+}
+
+.seccion-preguntas h1{
+  text-align: center;
+  padding: 20px 0;
+}
+
+.seccion-preguntas ul {
+  font-family: "Asap Condensed Medium";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  list-style-type: decimal;
+  text-align: left;
+}
+
+.seccion-preguntas ul li {
+  text-decoration: none;
+  color: #003823;
+  padding: 10px;  
+}
+
+.seccion-preguntas p{
+  color: #4F6F62;
+}
+
+.contacto{
+  text-align: center;
+  background: rgba(134, 166, 157, 0.20);
+  padding: 20px 80px;
+  margin-bottom: 30px;
+}
+
+.formulario-contacto{
+  width: 1000px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 20px;
+  
+}
+
+.formulario-contacto label{
+  width: 100px;
+  height: 40px;
+  color: #003823;
+  font-family: "Asap Condensed Medium";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-right: 10px;
+  text-align: left;
+  position: absolute;
+  left: 11%;
+ 
+}
+
+.formulario-contacto input{
+  width: 850px;
+  height: 40px;
+  border: 1px solid #003823;
+  border-radius: 20px;
+  padding-left: 20px;
+  font-family: "Asap Condensed";
+  font-size: 16px;
+  position: relative;
+  left: 8%;
+}
+
+#message{
+  width: 1000px;
+  height: 240px;
+  flex-shrink: 0;
+  border: 1px solid #003823;
+  border-radius: 20px;
+  padding: 20px 20px;
+  margin-top: 10px;
+  font-family: "Asap Condensed";
+  font-size: 16px;
+}
+
+.formulario-botones{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+                               /*  Footer  */
+
+footer{
+    background: #003823;
+    color: #FEFDE7;
+    font-family: "Asap Condensed";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 20px 80px;
+}
+
+.secciones-footer{
+  display: inline-flex;
+  gap: 200px;
+  align-items: start;
+}
+
+footer h3{
+  color: #FEFDE7;
+}
+
+footer p{
+  color: #FEFDE7;
+  text-align: center;
+}
+
+.nav-footer ul {
+    width: 200px; 
+    list-style-type: disc;
+    text-align: left;
+    padding-left: 30px;
+  }
+  
+.nav-footer ul li a {
+    text-decoration: none;
+    color: #FEFDE7;
+    padding: 5px;
+    display: block;
+  }
+
+.info-footer p{
+    color: #FEFDE7;
+    text-align: center;
+    font-family: "Asap Condensed Medium";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.seccion-redes{
+  display: block;
+  padding-right: 80px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-shrink: 0;
+  gap: 20px;
+}
+
+.seccion-redes div{
+  display: inline-flex;
+  width: 160px;
+  gap: 10px;
+  
+}
+
+.icono-redes img{
+    width: 48px;
+    height: 48px;
+    margin: 20px 0;
+    object-fit: cover;
+}   
+
+.logo-footer{
+  width: 100px;
+  height: 100px;
+}
